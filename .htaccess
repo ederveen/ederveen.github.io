@@ -1,2 +1,2 @@
-RewriteCond %{HTTP_HOST} ^ederveen.science
-RewriteRule ^(.*) https://ederveen.github.io/$1 [P]
+RewriteCond %{HTTP_HOST} ^https://ederveen.github.io/
+RewriteRule ^(.*) http://www.ederveen.science/$1 [P]
